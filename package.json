@@ -1,7 +1,7 @@
 {
   "name": "mini-burger",
   "private": false,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/egithinji/mini-burger.git"
   },
+  "keywords": [
+    "react",
+    "typescript",
+    "hamburger",
+    "menu",
+    "sidemenu",
+    "animated hamburger"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "rm -r dist && tsc",
