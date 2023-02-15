@@ -1,13 +1,17 @@
 {
   "name": "mini-burger",
   "private": false,
-  "version": "0.1.9",
+  "version": "0.2.0",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egithinji/mini-burger.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "rm -r dist && tsc",
