@@ -1,5 +1,6 @@
 {
   "name": "mini-burger",
+  "description": "Minimalistic React side menu with animated burger icon",
   "private": false,
   "version": "0.2.1",
   "type": "module",
