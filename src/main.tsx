@@ -12,5 +12,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <div>
       <h1 className='mt-10'>Hello there.</h1>
     </div>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
