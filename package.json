@@ -1,8 +1,9 @@
 {
   "name": "mini-burger",
-  "description": "Minimalistic React side menu with animated burger icon",
+  "description": "Minimalistic React side menu with animated hamburger icon",
   "private": false,
-  "version": "0.2.1",
+  "license": "MIT",
+  "version": "0.2.3",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,8 +19,9 @@
     "typescript",
     "hamburger",
     "menu",
-    "sidemenu",
-    "animated hamburger"
+    "side menu",
+    "animated hamburger",
+    "navigation"
   ],
   "scripts": {
     "dev": "vite",
