@@ -1,0 +1,29 @@
+{
+  "name": "mini-burger",
+  "private": false,
+  "version": "0.1.7",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -r dist && tsc",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^3.1.0",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
