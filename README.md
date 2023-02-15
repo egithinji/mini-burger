@@ -1,6 +1,6 @@
 ## Mini-burger
 
-![]screen_recording.gif
+![](screen_recording.gif)
 
 Mini-burger is a React component that allows you to add a simple minimalistic side menu with an animated hamburger icon to your application.
 
