@@ -54,5 +54,9 @@ Mini-burger allows you to make some basic customizations via props:
 | hamColorClosed | The color of the hamburger icon when the menu is closed | Any valid css color names |
 | hamColorOpen | The color of the hamburger icon when the menu is open | Any valid css color names | 
 
-Please note that you are responsible for styling the elements that you pass into the `NavBar` as children.
+Please note that you are responsible for the styling of the elements that you pass into the `NavBar` as children.
+
+### Inspiration
+
+Shout out to Kevin Powell for his awesome animated hamburger tutorial: https://youtu.be/R00QiudbD4Y
 
