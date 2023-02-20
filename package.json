@@ -3,7 +3,7 @@
   "description": "Minimalistic React side menu with animated hamburger icon",
   "private": false,
   "license": "MIT",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

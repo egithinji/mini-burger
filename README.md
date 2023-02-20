@@ -14,7 +14,7 @@ npm i mini-burger
 
 Import the `NavBar` component and add it as the first child of your root element. Add links to the menu by passing them as children of the `NavBar` component:
 
-```
+```html
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { NavBar } from 'mini-burger'
@@ -26,15 +26,15 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <a style={{color: 'white'}} href='https://www.google.com'>Link 2</a>
         <a style={{color: 'white'}} href='https://www.google.com'>Link 3</a>
     </NavBar>
-    <div style={{margin: "250px"}}>
-      <h1 className='mt-10'>Hello there.</h1>
+    <div>
+      <h1>Hello there.</h1>
     </div>
   </React.StrictMode>
 )
 ```
 
 Any elements (not just `<a>`) can be passed to the `NavBar`:
-```
+```jsx
 <NavBar> 
     <MyComponent1 />
     <MyComponent2 />
